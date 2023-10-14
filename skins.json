@@ -1,72 +1,72 @@
 {
     "M4A1": [
-        { "name": "Desert Camo", "rarity": "common", "percentage": 70 },
-        { "name": "Arctic Snow", "rarity": "common", "percentage": 70 },
-        { "name": "Urban Stealth", "rarity": "uncommon", "percentage": 20 },
-        { "name": "Woodland Green", "rarity": "rare", "percentage": 8 },
-        { "name": "Midnight Black", "rarity": "epic", "percentage": 1 }
+        { "name": "Desert Camo", "rarity": "Common", "percentage": 70 },
+        { "name": "Arctic Snow", "rarity": "Common", "percentage": 70 },
+        { "name": "Urban Stealth", "rarity": "Uncommon", "percentage": 20 },
+        { "name": "Woodland Green", "rarity": "Rare", "percentage": 8 },
+        { "name": "Midnight Black", "rarity": "Epic", "percentage": 1 }
     ],
     "AK-47": [
-        { "name": "Tiger Stripe", "rarity": "common", "percentage": 70 },
-        { "name": "Blood Red", "rarity": "uncommon", "percentage": 20 },
-        { "name": "Golden Dragon", "rarity": "rare", "percentage": 8 },
-        { "name": "Rusty War-Torn", "rarity": "epic", "percentage": 1 },
-        { "name": "Jungle Green", "rarity": "legendary", "percentage": 1 }
+        { "name": "Tiger Stripe", "rarity": "Common", "percentage": 70 },
+        { "name": "Blood Red", "rarity": "Uncommon", "percentage": 20 },
+        { "name": "Golden Dragon", "rarity": "Rare", "percentage": 8 },
+        { "name": "Rusty War-Torn", "rarity": "Epic", "percentage": 1 },
+        { "name": "Jungle Green", "rarity": "Legendary", "percentage": 1 }
     ],
     "FN SCAR": [
-        { "name": "Digital Desert", "rarity": "common", "percentage": 70 },
-        { "name": "Arctic Frost", "rarity": "uncommon", "percentage": 20 },
-        { "name": "Urban Nightfall", "rarity": "rare", "percentage": 8 },
-        { "name": "Woodland Shadow", "rarity": "epic", "percentage": 1 },
-        { "name": "Phantom Black", "rarity": "legendary", "percentage": 1 }
+        { "name": "Digital Desert", "rarity": "Common", "percentage": 70 },
+        { "name": "Arctic Frost", "rarity": "Uncommon", "percentage": 20 },
+        { "name": "Urban Nightfall", "rarity": "Rare", "percentage": 8 },
+        { "name": "Woodland Shadow", "rarity": "Epic", "percentage": 1 },
+        { "name": "Phantom Black", "rarity": "Legendary", "percentage": 1 }
     ],
     "HK416": [
-        { "name": "Arctic Storm", "rarity": "common", "percentage": 70 },
-        { "name": "Urban Camouflage", "rarity": "uncommon", "percentage": 20 },
-        { "name": "Golden Tiger", "rarity": "rare", "percentage": 8 },
-        { "name": "Midnight Ops", "rarity": "epic", "percentage": 1 },
-        { "name": "Blaze Orange", "rarity": "legendary", "percentage": 1 }
+        { "name": "Arctic Storm", "rarity": "Common", "percentage": 70 },
+        { "name": "Urban Camouflage", "rarity": "Uncommon", "percentage": 20 },
+        { "name": "Golden Tiger", "rarity": "Rare", "percentage": 8 },
+        { "name": "Midnight Ops", "rarity": "Epic", "percentage": 1 },
+        { "name": "Blaze Orange", "rarity": "Legendary", "percentage": 1 }
     ],
     "AUG A3": [
-        { "name": "Electric Blue", "rarity": "common", "percentage": 70 },
-        { "name": "Stealthy Grey", "rarity": "common", "percentage": 70 },
-        { "name": "Jungle Leaf", "rarity": "uncommon", "percentage": 20 },
-        { "name": "Midnight Blackout", "rarity": "rare", "percentage": 8 },
-        { "name": "Crimson Red", "rarity": "epic", "percentage": 1 }
+        { "name": "Electric Blue", "rarity": "Common", "percentage": 70 },
+        { "name": "Stealthy Grey", "rarity": "Common", "percentage": 70 },
+        { "name": "Jungle Leaf", "rarity": "Uncommon", "percentage": 20 },
+        { "name": "Midnight Blackout", "rarity": "Rare", "percentage": 8 },
+        { "name": "Crimson Red", "rarity": "Epic", "percentage": 1 }
     ],
     "Remington 870": [
-        { "name": "Hunter's Camo", "rarity": "common", "percentage": 70 },
-        { "name": "Tactical Black", "rarity": "common", "percentage": 70 },
-        { "name": "Police Blue Line", "rarity": "uncommon", "percentage": 20 },
-        { "name": "Desert Sand", "rarity": "rare", "percentage": 8 },
-        { "name": "Zombie Green", "rarity": "epic", "percentage": 1 }
+        { "name": "Hunter's Camo", "rarity": "Common", "percentage": 70 },
+        { "name": "Tactical Black", "rarity": "Common", "percentage": 70 },
+        { "name": "Police Blue Line", "rarity": "Uncommon", "percentage": 20 },
+        { "name": "Desert Sand", "rarity": "Rare", "percentage": 8 },
+        { "name": "Zombie Green", "rarity": "Epic", "percentage": 1 }
     ],
     "Benelli M4": [
-        { "name": "Desert Camo", "rarity": "common", "percentage": 70 },
-        { "name": "Matte Black", "rarity": "common", "percentage": 70 },
-        { "name": "Olive Drab", "rarity": "uncommon", "percentage": 20 },
-        { "name": "Arctic Frost", "rarity": "rare", "percentage": 8 },
-        { "name": "Police SWAT", "rarity": "epic", "percentage": 1 }
+        { "name": "Desert Camo", "rarity": "Common", "percentage": 70 },
+        { "name": "Matte Black", "rarity": "Common", "percentage": 70 },
+        { "name": "Olive Drab", "rarity": "Uncommon", "percentage": 20 },
+        { "name": "Arctic Frost", "rarity": "Rare", "percentage": 8 },
+        { "name": "Police SWAT", "rarity": "Epic", "percentage": 1 }
     ],
     "Mossberg 590": [
-        { "name": "Rugged Brown", "rarity": "common", "percentage": 70 },
-        { "name": "Midnight Ops", "rarity": "common", "percentage": 70 },
-        { "name": "Woodland Camo", "rarity": "uncommon", "percentage": 20 },
-        { "name": "Midnight Blue", "rarity": "rare", "percentage": 8 },
-        { "name": "Urban Tactical", "rarity": "epic", "percentage": 1 }
+        { "name": "Rugged Brown", "rarity": "Common", "percentage": 70 },
+        { "name": "Midnight Ops", "rarity": "Common", "percentage": 70 },
+        { "name": "Woodland Camo", "rarity": "Uncommon", "percentage": 20 },
+        { "name": "Midnight Blue", "rarity": "Rare", "percentage": 8 },
+        { "name": "Urban Tactical", "rarity": "Epic", "percentage": 1 }
     ],
     "SPAS-12": [
-        { "name": "Jungle Camo", "rarity": "common", "percentage": 70 },
-        { "name": "Classic Wood Grain", "rarity": "common", "percentage": 70 },
-        { "name": "Tactical Matte Black", "rarity": "uncommon", "percentage": 20 },
-        { "name": "Desert Sandstorm", "rarity": "rare", "percentage": 8 },
-        { "name": "Urban Stealth", "rarity": "epic", "percentage": 1 }
+        { "name": "Jungle Camo", "rarity": "Common", "percentage": 70 },
+        { "name": "Classic Wood Grain", "rarity": "Common", "percentage": 70 },
+        { "name": "Tactical Matte Black", "rarity": "Uncommon", "percentage": 20 },
+        { "name": "Desert Sandstorm", "rarity": "Rare", "percentage": 8 },
+        { "name": "Urban Stealth", "rarity": "Epic", "percentage": 1 }
     ],
     "AA-12": [
-        { "name": "Matte Black", "rarity": "common", "percentage": 70 },
-        { "name": "Desert Digital", "rarity": "common", "percentage": 70 },
-        { "name": "Urban Camouflage", "rarity": "uncommon", "percentage": 20 },
-        { "name": "Golden Tiger", "rarity": "rare", "percentage": 8 },
-        { "name": "Midnight Ops", "rarity": "epic", "percentage": 1 }
+        { "name": "Matte Black", "rarity": "Common", "percentage": 70 },
+        { "name": "Desert Digital", "rarity": "Common", "percentage": 70 },
+        { "name": "Urban Camouflage", "rarity": "Uncommon", "percentage": 20 },
+        { "name": "Golden Tiger", "rarity": "Rare", "percentage": 8 },
+        { "name": "Midnight Ops", "rarity": "Epic", "percentage": 1 }
     ]
 }
