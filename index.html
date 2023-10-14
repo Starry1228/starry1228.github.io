@@ -1,0 +1,154 @@
+<html>
+<head>
+    <title>Unboxing</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #openButton {
+            margin-top: 20px;
+        }
+        #inventory-container {
+            text-align: left;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            max-height: 400px;
+            overflow-y: auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 60%;
+            margin: 20px auto;
+        }
+        #inventory {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #inventory li {
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+        .item-info {
+            flex-grow: 1;
+        }
+        .item-name {
+            font-weight: bold;
+        }
+        .item-rarity {
+            font-style: italic;
+            color: #777;
+        }
+        .item-close {
+            cursor: pointer;
+            color: #e74c3c;
+            font-size: 20px;
+        }
+        button {
+            display: block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unboxing</h1>
+    <div class="container">
+        <button id="openButton">Open</button>
+        <div id="inventory-container">
+            <h2>Inventory</h2>
+            <ul id="inventory">
+
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function loadSkinData(callback) {
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", "skins.json", true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    const skinData = JSON.parse(xhr.responseText);
+                    callback(skinData);
+                }
+            };
+            xhr.send();
+        }
+
+        function selectRandomSkin(weapon, skinData) {
+            const randomIndex = Math.floor(Math.random() * skinData[weapon].length);
+            return skinData[weapon][randomIndex];
+        }
+
+        function openCrate() {
+            loadSkinData(function (skinData) {
+                const weapons = Object.keys(skinData);
+                const randomWeaponIndex = Math.floor(Math.random() * weapons.length);
+                const selectedWeapon = weapons[randomWeaponIndex];
+                const selectedSkin = selectRandomSkin(selectedWeapon, skinData);
+                const inventory = document.getElementById("inventory");
+                const inventoryItem = document.createElement("li");
+                inventoryItem.innerHTML = `
+                    <div class="item-info">
+                        <span class="item-name">Obtained ${selectedSkin.rarity} skin for ${selectedWeapon}:</span>
+                        <span>${selectedSkin.name}</span>
+                    </div>
+                    <span class="item-close" onclick="removeItem(this)">X</span>
+                `;
+                inventoryItem.style.borderLeftColor = getBorderColor(selectedSkin.rarity);
+                inventory.insertBefore(inventoryItem, inventory.firstChild);
+            });
+        }
+
+        function removeItem(item) {
+            item.parentNode.remove();
+        }
+
+        function getBorderColor(rarity) {
+            switch (rarity) {
+                case "Common":
+                    return "#009900";
+                case "Uncommon":
+                    return "#3498db";
+                case "Rare":
+                    return "#f1c40f";
+                case "Epic":
+                    return "#e74c3c";
+                case "Legendary":
+                    return "#8e44ad";
+                default:
+                    return "#cccccc";
+            }
+        }
+
+        const openButton = document.getElementById("openButton");
+        openButton.addEventListener("click", openCrate);
+    </script>
+</body>
+</html>
